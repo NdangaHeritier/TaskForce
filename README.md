@@ -1,5 +1,16 @@
 # TaskForce
-My Skills confirmation project
+This project Is A Wallet Management Application that will help Eric to Manage his Income and expenses through providing him with more customizable tool bar and readable content and intaractive pages.
+
+### Here is What i can expect from this project when it goes live for use:
+
+> #I will help the user to Add His/Her income and expenses categories.<br>
+> #To store the transactions for all registered accounts well and online.<br>
+> #To keep user updated about the spending rate for current month.<br>
+> #To help user manage his/her accounts by recharging accounts every time he want and adding different account:<br>
+> #To allow user to view his/ her expenses transactions summary of month.<br>
+> #Help user print out the transactons report according to choosen seasonal report.<br>
+> #Improved user interaction by providing users with customizable Menubar for navigating user accross the application.<br>
+> #To get more experiense as my app is being used and i will continue reviewing and updating.<br>
 ## Dashboard
 
 ![Screenshot 2025-01-19 224953](https://github.com/user-attachments/assets/bf233f1e-3d60-4e23-a9d6-4475d467ba93)
