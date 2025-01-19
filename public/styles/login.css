@@ -1,0 +1,122 @@
+.login-container{
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* notifications */
+
+.notifications{
+    position: fixed;
+    top: 15%;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: inter 1.5s 1 linear;
+}
+
+.message, .success-message{
+    background-color: rgb(247, 212, 212);
+    color: rgb(211, 50, 50);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 1px 1px 5px -1px grey;
+    cursor: pointer;
+}
+
+.success-message{
+    background-color: var(--bs-green-trans);
+    color: var(--color-green);
+}
+
+@keyframes inter {
+    from{
+        right: -50%;
+    }
+    to{
+        right: 1rem;
+    }
+}
+.message-icon{
+    font-size: 20px;
+}
+/* end of notifications */
+
+.login-title{
+    color: var(--color-subtitle);
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+.login-title .fas{
+    background-color: var(--bs-yellow-trans-alt);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--color-yellow);
+}
+
+.login-form{
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background-color: var(--bs-yellow-trans);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    background: var(--bs-body);
+    border-radius: 10px;
+}
+
+label{
+    color: var(--color-subtitle);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.input-field{
+    background-color: rgba(39, 32, 3, 0.05);
+    border: 1px solid var(--color-pars);
+    padding: 15px 30px;
+    color: var(--color-subtitle);
+    font-size: 18px;
+    outline-color: var(--color-yellow);
+    border-radius: 10px;
+}
+
+.reset-link{
+    color: var(--color-green);
+    text-decoration: none;
+    font-size: 18px;
+}
+.reset-link:hover{
+    text-decoration: underline;
+}
+.login-btn{
+    border: 0;
+    padding: 15px 30px;
+    background-color: var(--color-yellow);
+    border-radius: 10px;
+    outline: 0;
+    color: var(--bs-light);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login-btn:hover{
+    background-color: var(--color-yellow-alt);
+}

@@ -1,0 +1,236 @@
+
+/* Variables decaration */
+:root{
+    --color-title: #1d1c1b;
+    --color-subtitle: #4e4d48;
+    --color-pars:#8f8e8e;
+    --color-yellow: #af9606;
+    --color-green: rgb(8, 179, 128);
+    --color-yellow-alt: #947e03;
+    --color-green-alt: rgb(7, 143, 102);
+    --bs-light: rgb(236, 235, 235);
+    --bs-yellow-trans: #f1e7aa;
+    --bs-yellow-trans-alt: #ebdb83;
+    --bs-green-trans: rgb(190, 255, 235);
+    --bs-green-trans-alt: rgb(131, 245, 211);
+    --bs-body: linear-gradient(90deg, rgb(252, 251, 241), rgb(248, 244, 181));
+}
+/* End of style's colors changes */
+
+/* Important styles */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease;
+}
+body{
+    background: var(--bs-body);
+    padding: 0;
+    margin: 0;
+}
+ .decoration-none{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+ }
+
+ .border-all{
+    border: 0.5px solid rgb(211, 208, 200);
+ }
+ .border-bottom{
+    border-bottom: 0.5px solid rgb(211, 208, 200);
+ }
+ .border-top{
+    border-top: 0.5px solid rgb(211, 208, 200);
+ }
+ .border-end{
+    border-right: 0.5px solid rgb(211, 208, 200);
+ }
+ .border-start{
+    border-left: 0.5px solid rgb(211, 208, 200);
+ }
+/* End of useful styles across page */
+
+/* Header styling. */
+.header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 40px;
+    font-weight: 500;
+}
+.logoIcon{
+    color: var(--color-yellow);
+}
+.logoTitle{
+    color: var(--color-subtitle);
+}
+
+.auth-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.auth-btn{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: var(--color-yellow);
+    color: var(--bs-light);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.auth-btn:nth-child(1){
+    border: 1px solid var(--color-yellow);
+    color: var(--color-yellow);
+    background-color: var(--bs-yellow-trans);
+}
+
+.auth-btn:nth-child(1):hover{
+    border-color: var(--color-yellow-alt);
+    color: var(--color-yellow-alt);
+    background-color: var(--bs-yellow-trans-alt);
+}
+.auth-btn:nth-child(2):hover{
+    background-color: var(--color-yellow-alt);
+}
+
+.noti-button{
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+    color: var(--color-subtitle);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.profile-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    border: 0.5px solid rgb(218, 217, 213);
+    border-radius: 50px;
+    padding: 5px;
+}
+.profile-button:hover{
+    background-color: var(--bs-yellow-trans);
+}
+
+.profile-button span{    
+    padding: 5px 10px;
+    color: var(--color-subtitle);
+    cursor: pointer;
+}
+.profile-button .far{    
+    border-right: 0.5px solid rgb(218, 217, 213);
+}
+
+.logout-btn{
+    color: var(--color-subtitle);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.logout-btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* contents styling... */
+
+.plan-intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 10px 80px;
+}
+
+.plan-intro:nth-child(2){
+    background: linear-gradient(-45deg, var(--bs-green-trans), transparent);
+}
+.intro-icon{
+    color: var(--color-yellow);
+    font-size: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bs-yellow-trans-alt);
+}
+
+.plan-intro:nth-child(2) .intro-icon{
+    color: var(--color-green);
+    background-color: var(--bs-green-trans-alt);
+}
+.gr-text{
+    background: linear-gradient(-45deg, var(--color-yellow)40%, rgb(8, 179, 128)60%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.plan-intro h1{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.plan-intro p{
+    color: var(--color-pars);
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plan-intro .plan-now{
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-yellow);
+    color: var(--bs-light);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.plan-intro:nth-child(2) .plan-now{
+    background-color: var(--color-green);
+}
+
+.copyright{
+    padding: 20px;
+    background-color: rgb(233, 243, 248);
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--color-subtitle);
+    position: relative;
+}
+
+
+/* On Mobile phones and small devices */
+
+/* @media screen and (max-width: 580px) {
+    
+} */
+/* End of Mobile responsiveness */
+
+/* END OF OUR STYLES */

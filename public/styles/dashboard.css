@@ -1,0 +1,211 @@
+
+.top-notifications{
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -1px grey;
+    padding: 30px;
+    width: 400px;
+    z-index: 999;
+    display: none;
+}
+
+.not-title{
+    color: var(--color-title);
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.noti-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.notify{
+    padding: 20px;
+    background: rgb(252, 247, 222);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.notify:nth-child(2){
+    background-color: rgb(252, 222, 222);
+}
+.notify:nth-child(2) .noti-icon{
+    color: rgb(223, 59, 59);
+}
+.noti-icon{
+    color: var(--color-yellow);
+    border-radius: 10px;
+    font-size: 60px;
+
+}
+.noti-content{
+    color: var(--color-title);
+    font-weight: 200;
+    font-size: 16px;
+}
+.noti-content span{
+    color: var(--color-title);
+    font-weight: 600;
+}
+
+
+.bars{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 83.5vh;
+    overflow: hidden;
+}
+
+.menus{
+    padding: 20px;
+    height: 100%;
+}
+.menu-bar{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button{
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 900;
+    outline: 0;
+    cursor: pointer;
+    color: var(--color-subtitle);
+}
+.navs{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;    
+}
+.nav-item{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: rgb(231, 229, 204);
+}
+
+.nav-item.active:hover{
+    background-color: var(--bs-yellow-trans-alt);
+}
+
+.nav-item.active{    
+    background-color: var(--bs-yellow-trans);
+}
+
+.nav-item.active .item-icon, .nav-item.active .item-text{
+    font-weight: 600;
+}
+
+.item-icon, .item-text{
+    color: var(--color-subtitle);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.item-text{
+    flex: 2;
+}
+
+.item-text.collapse{
+    display: none;
+}
+.body{
+    flex: 2;
+    background-color: var(--bs-light);
+    height: 100%;
+    overflow: auto;
+}
+
+/* Default page styles */
+
+.default-container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;    
+    padding: 30px;
+}
+
+.welcome{
+    display: flex;
+    background-color: var(--bs-green-trans-alt);
+    color: var(--color-subtitle);
+    font-size: 18px;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.default-cards{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.default-cards .card{
+    border-radius: 10px;
+    background-color: rgb(252, 247, 222);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card-icon{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bs-yellow-trans);
+    color: var(--color-yellow);
+    padding: 10px 20px 10px;
+}
+
+.card-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-title{
+    font-size: 30px;
+    color: var(--color-subtitle);
+    font-weight: 300;
+}
+
+.card-desc{
+    color: var(--color-yellow);
+    font-weight: 200;
+    font-size: 20px;
+}
+.card-contents .link{
+    display: flex;
+    float: right;
+    color: var(--color-subtitle);
+    cursor: pointer;
+}
