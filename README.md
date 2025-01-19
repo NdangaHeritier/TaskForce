@@ -21,7 +21,7 @@ A PHP framework for building robust and structured web applications with builtin
 #### Windows 10 OS
 Operating system.
 #### NPM package manager:
-For creating new Laracel projects.
+For creating new Laravel project.
 
 # SCREENSHOTS OF MY PROJECT PAGES:
 
