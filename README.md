@@ -18,12 +18,19 @@ This project Is A Wallet Management Application that will help Eric to Manage hi
 for managing laravel project dependencies and libraries.
 #### Laravel 10:
 A PHP framework for building robust and structured web applications with builtin features for easy and fast development.
-
 #### Windows 10 OS
 Operating system.
-
 #### NPM package manager:
 For creating new Laracel projects.
+
+# SCREENSHOTS OF MY PROJECT PAGES:
+
+## Index Page:
+![index](https://github.com/user-attachments/assets/81479772-064d-4c38-90ea-b8bd04f9907b)
+
+## Login Page:
+![login](https://github.com/user-attachments/assets/901d0477-34f6-428d-b05e-4ee0ffba1cbc)
+
 ## Dashboard
 
 ![Screenshot 2025-01-19 224953](https://github.com/user-attachments/assets/bf233f1e-3d60-4e23-a9d6-4475d467ba93)
