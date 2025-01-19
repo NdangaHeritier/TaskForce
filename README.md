@@ -11,6 +11,19 @@ This project Is A Wallet Management Application that will help Eric to Manage hi
 > #Help user print out the transactons report according to choosen seasonal report.<br>
 > #Improved user interaction by providing users with customizable Menubar for navigating user accross the application.<br>
 > #To get more experiense as my app is being used and i will continue reviewing and updating.<br>
+
+## Tools and Pre-requisites:
+
+#### PHP Composer:
+for managing laravel project dependencies and libraries.
+#### Laravel 10:
+A PHP framework for building robust and structured web applications with builtin features for easy and fast development.
+
+#### Windows 10 OS
+Operating system.
+
+#### NPM package manager:
+For creating new Laracel projects.
 ## Dashboard
 
 ![Screenshot 2025-01-19 224953](https://github.com/user-attachments/assets/bf233f1e-3d60-4e23-a9d6-4475d467ba93)
