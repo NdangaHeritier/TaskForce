@@ -1,7 +1,7 @@
 # TaskForce
 This project Is A Wallet Management Application that will help Eric to Manage his Income and expenses through providing him with more customizable tool bar and readable content and intaractive pages.
 
-## watch my loom vide - Presentation of my project.
+## watch my loom video - Presentation of my project.
 [Watch it here!](https://www.loom.com/share/7928e9b24f6c4647bf82e91bafc57422?sid=a0ba77c4-2511-4b34-b22b-9da3858e51c6)
 
 ### Here is What i can expect from this project when it goes live for use:
